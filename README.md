@@ -2,7 +2,7 @@
 
 Dynamically build a chain of DSP with poly~ objects inside poly~ objects. This software is a work in progress. Feel free to clone/fork and use it in any way. Also feel free to get in touch with suggestions/ideas/bugs and anything else.
 
-*Designed by Timo Hoogland & Jordan Stefanelli (c) 2019*
+*Designed and Developed by Timo Hoogland & Jordan Stefanelli (c) 2019*
 
 ## About
 
@@ -11,7 +11,7 @@ This project is an exploration of the use of the poly~ object for dynamically lo
 - [Contains](#Contains)
 - [Overview](#Overview)
 - [Usage](#Usage)
-- [Chain Overview](#Chain)
+- [Chain](#Chain)
 - [Dependencies](#Dependencies)
 - [Install](#Install)
 
