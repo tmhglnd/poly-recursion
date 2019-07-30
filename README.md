@@ -9,7 +9,9 @@ Dynamically build a chain of DSP with poly~ objects inside poly~ objects. This s
 This project is an exploration of the use of the poly~ object for dynamically loading a chain of DSP units. A branch (p_branch~) is replaced by a DSP effect (which is a branch by itself with some additional processing such as an overdrive). For every next effect it is loaded inside the previous effect. Eventually the chain is terminated by a leaf (the p_thru~) and the signal is routed back out through every branch up to the main patcher. A chain can be loaded with presets stored in a json file, but can also be instantiated with a list of symbols containing all the parameters for every effect.
 
 - [Contains](#Contains)
+- [Overview](#Overview)
 - [Usage](#Usage)
+- [Chain Overview](#Chain)
 - [Dependencies](#Dependencies)
 - [Install](#Install)
 
@@ -30,6 +32,10 @@ This project is an exploration of the use of the poly~ object for dynamically lo
 - **p_lfo~** - *A branch with an lfo *
 
 - **fx_settings.json** - *A dictionary filled with some presets*
+
+## Overview
+
+![overview of the main patcher](media/overview_1.png)
 
 ## Usage
 Open the project and start up the main.maxpat (should open automatically). 
@@ -55,6 +61,9 @@ Provide all parameters in a message as one symbol to the \[p_loader] object
 ```
 ("lfo <wet/dry 0-1> <frequency> <depth 0-1> <shape 0,1,2,3> <pulse width 0-1>")
 ```
+
+### Chain Overview
+![overview of a chain in multiple poly~ objects](media/overview_2.png)
 
 ## Dependencies
 
