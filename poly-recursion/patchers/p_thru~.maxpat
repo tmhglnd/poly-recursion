@@ -45,6 +45,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 30.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 3"
 				}
 
@@ -82,7 +86,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 210.0, 42.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+						"attr_comment" : [ "(signal)", "out", "R" ]
 					}
 ,
 					"text" : "out~ 2"
@@ -97,7 +101,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 210.0, 42.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+						"attr_comment" : [ "(signal)", "out", "L" ]
 					}
 ,
 					"text" : "out~ 1"
@@ -113,7 +117,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 90.0, 30.0, 35.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+						"attr_comment" : [ "(signal)", "input", "R" ]
 					}
 ,
 					"text" : "in~ 2"
@@ -129,7 +133,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 30.0, 35.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+						"attr_comment" : [ "(signal)", "input", "L" ]
 					}
 ,
 					"text" : "in~ 1"
@@ -151,9 +155,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

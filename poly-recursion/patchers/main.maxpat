@@ -39,6 +39,138 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-42",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 630.0, 397.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "6",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-40",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 210.5, 158.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "5",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-34",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 930.0, 255.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "4",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-32",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 488.0, 158.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "3",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-30",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 89.0, 158.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-22",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 314.0, 585.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 328.0, 601.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"linecount" : 7,
 					"maxclass" : "comment",
@@ -56,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 885.0, 388.0, 150.0, 33.0 ],
+					"patching_rect" : [ 225.0, 166.0, 150.0, 33.0 ],
 					"text" : "try some parameter changes with presets"
 				}
 
@@ -82,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 43.0, 351.0, 60.0 ],
+					"patching_rect" : [ 45.0, 43.0, 354.0, 60.0 ],
 					"text" : "Dynamic and recursively load a chain of poly~ objects",
 					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
@@ -107,18 +239,18 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 885.0, 425.0, 100.0, 40.0 ],
+					"patching_rect" : [ 225.0, 203.0, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-8", "live.gain~", "float", 0.0, 5, "obj-13", "toggle", "int", 0, 5, "obj-41", "toggle", "int", 1, 9, "obj-54", "multislider", "list", 0.133333340287209, 0.277777791023254, 0.74444442987442, 0.633333325386047, 0.899999976158142, 6, "obj-73", "multislider", "list", 0.155555561184883, 0.899999976158142, 9, "obj-12", "multislider", "list", 0.388888895511627, 1.0, 0.177777782082558, 1.0, 0.488888889551163 ]
+							"data" : [ 5, "obj-8", "live.gain~", "float", 0.0, 5, "<invalid>", "toggle", "int", 1, 5, "<invalid>", "toggle", "int", 0, 9, "obj-54", "multislider", "list", 0.133333340287209, 0.277777791023254, 0.74444442987442, 0.633333325386047, 0.899999976158142, 6, "obj-73", "multislider", "list", 0.155555561184883, 0.899999976158142, 9, "obj-12", "multislider", "list", 0.388888895511627, 1.0, 0.177777782082558, 1.0, 0.488888889551163 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-8", "live.gain~", "float", 0.0, 5, "obj-13", "toggle", "int", 0, 5, "obj-41", "toggle", "int", 1, 9, "obj-54", "multislider", "list", 0.699999988079071, 0.433333337306976, 0.74444442987442, 0.633333325386047, 0.899999976158142, 6, "obj-73", "multislider", "list", 0.622222244739532, 0.899999976158142, 9, "obj-12", "multislider", "list", 1.0, 1.0, 0.066666670143604, 0.088888891041279, 0.488888889551163 ]
+							"data" : [ 5, "obj-8", "live.gain~", "float", 0.0, 5, "<invalid>", "toggle", "int", 0, 5, "<invalid>", "toggle", "int", 1, 9, "obj-54", "multislider", "list", 0.699999988079071, 0.433333337306976, 0.74444442987442, 0.633333325386047, 0.899999976158142, 6, "obj-73", "multislider", "list", 0.622222244739532, 0.899999976158142, 9, "obj-12", "multislider", "list", 1.0, 1.0, 0.066666670143604, 0.088888891041279, 0.488888889551163 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-8", "live.gain~", "float", 0.0, 5, "obj-13", "toggle", "int", 0, 5, "obj-41", "toggle", "int", 1, 9, "obj-54", "multislider", "list", 0.422222226858139, 0.222222223877907, 0.355555564165115, 0.822222232818604, 0.98888885974884, 6, "obj-73", "multislider", "list", 1.0, 0.222222223877907, 9, "obj-12", "multislider", "list", 0.733333349227905, 1.0, 0.088888891041279, 0.800000011920929, 0.0 ]
+							"data" : [ 5, "obj-8", "live.gain~", "float", 0.0, 5, "<invalid>", "toggle", "int", 0, 5, "<invalid>", "toggle", "int", 1, 9, "obj-54", "multislider", "list", 0.422222226858139, 0.222222223877907, 0.355555564165115, 0.822222232818604, 0.98888885974884, 6, "obj-73", "multislider", "list", 1.0, 0.222222223877907, 9, "obj-12", "multislider", "list", 0.733333349227905, 1.0, 0.088888891041279, 0.800000011920929, 0.0 ]
 						}
  ]
 				}
@@ -396,18 +528,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-91",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 497.0, 405.0, 37.0, 22.0 ],
-					"text" : "zl.rev"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -631,6 +751,18 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.0, 48.0, 70.0, 22.0 ],
+									"text" : "loadmess 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-42",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -692,6 +824,13 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-44", 0 ],
 									"source" : [ "obj-38", 0 ]
@@ -774,18 +913,6 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 270.0, 345.0, 55.0, 22.0 ],
 					"text" : "adc~ 1 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 398.0, 367.0, 97.0, 60.0 ],
-					"text" : "patchers are loaded from back to front, so first [zl.rev]"
 				}
 
 			}
@@ -922,13 +1049,13 @@
 					"patching_rect" : [ 360.0, 578.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -1062,8 +1189,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -1125,7 +1259,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
+					"destination" : [ "obj-13", 0 ],
+					"order" : 0,
+					"source" : [ "obj-38", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"order" : 1,
+					"source" : [ "obj-38", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1153,7 +1303,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1259,7 +1409,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -1278,13 +1428,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-91", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-8" : [ "live.gain~", "live.gain~", 0 ],
@@ -1295,44 +1438,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "p_reverb~.maxpat",
-				"bootpath" : "~/Drive/projects/code/max/major_projects/poly_fxChain/poly-recursion-master/poly-recursion/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_overdrive~.maxpat",
-				"bootpath" : "~/Drive/projects/code/max/major_projects/poly_fxChain/poly-recursion-master/poly-recursion/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_lfo~.maxpat",
-				"bootpath" : "~/Drive/projects/code/max/major_projects/poly_fxChain/poly-recursion-master/poly-recursion/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "p_thru~.maxpat",
-				"bootpath" : "~/Drive/projects/code/max/major_projects/poly_fxChain/poly-recursion-master/poly-recursion/patchers",
+				"bootpath" : "~/Drive/projects/code/max/major_projects/poly_fx-chain/poly-recursion-master/poly-recursion/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_loader.maxpat",
-				"bootpath" : "~/Drive/projects/code/max/major_projects/poly_fxChain/poly-recursion-master/poly-recursion/patchers",
+				"bootpath" : "~/Drive/projects/code/max/major_projects/poly_fx-chain/poly-recursion-master/poly-recursion/patchers",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
