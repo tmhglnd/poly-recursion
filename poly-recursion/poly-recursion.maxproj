@@ -2,9 +2,9 @@
 	"name" : "poly-recursion",
 	"version" : 1,
 	"creationdate" : 3647324700,
-	"modificationdate" : 3647332319,
-	"viewrect" : [ 87.0, 116.0, 300.0, 500.0 ],
-	"autoorganize" : 1,
+	"modificationdate" : 3647419779,
+	"viewrect" : [ 231.0, 182.0, 300.0, 500.0 ],
+	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"p_thru~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"p_loader.maxpat" : 			{
@@ -40,11 +45,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"p_thru~.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
@@ -66,7 +66,7 @@
 
 	}
 ,
-	"detailsvisible" : 0,
+	"detailsvisible" : 1,
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
