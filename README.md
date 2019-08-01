@@ -25,11 +25,11 @@ This project is an exploration of the use of the poly~ object for dynamically lo
 
 - **p_branch~** - *An empty branch for poly~*
 
-- **p_reverb~** - *A branch with the yafr2 reverb*
+- **p_reverb~** - *A branch with the classic yafr2 reverb by Randy Jones*
 
-- **p_overdrive~** - *A branch with a overdrive algorithm in gen~ ported from the DAFX book*
+- **p_overdrive~** - *A branch with an overdrive algorithm in gen~ ported from the DAFX book*
 
-- **p_lfo~** - *A branch with an lfo *
+- **p_lfo~** - *A branch with an lfo effect*
 
 - **fx_settings.json** - *A dictionary filled with some presets*
 
@@ -52,12 +52,16 @@ Provide a longer message with multiple symbols to create a chain of DSP.
 ```
 ### Parameters
 Provide all parameters in a message as one symbol to the \[p_loader] object
+
+#### drive
 ```
 ("drive <amount >1 > <wet/dry 0-1>")
 ```
+#### reverb
 ```
 ("reverb <wet/dry 0-1> <size 0-1> <decay 0-1> <damping 0-1> <diffusion 0-1>")
 ```
+#### lfo
 ```
 ("lfo <wet/dry 0-1> <frequency> <depth 0-1> <shape 0,1,2,3> <pulse width 0-1>")
 ```
